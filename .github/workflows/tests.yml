@@ -13,9 +13,9 @@ jobs:
         ports:
           - 5433:5432
         env:
-          POSTGRES_USER: user
-          POSTGRES_PASSWORD: password
-          POSTGRES_DB: test_db
+          POSTGRES_USER: user2
+          POSTGRES_PASSWORD: password2
+          POSTGRES_DB: database2
         options: >-
           --health-cmd="pg_isready"
           --health-interval=10s
