@@ -28,7 +28,7 @@ def create_app() -> Flask:
 
 app = create_app()
 app.json.ensure_ascii = False
-engine = create_engine(utils_db.get_db_url_test(), echo=True)
+engine = create_engine(utils_db.get_db_url_t(), echo=True)
 models.Base.metadata.create_all(engine)
 
 
