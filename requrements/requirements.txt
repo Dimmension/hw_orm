@@ -1,8 +1,6 @@
-dependency-injector
-fastapi
-uvicorn
-pyyaml
 sqlalchemy
+flask
 pytest
-requests
-pytest-cov
+psycopg2
+psycopg
+python-dotenv
